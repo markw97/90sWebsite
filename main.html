@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Generic 90s Page</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+    <div class="header">
+        <img src="./images/neopets.PNG" alt="Neopets-Logo" style="width:15%;">
+        <span class="header-text">
+            <img src="./images/favicon.png" alt="Neopets-Login" style="width:7%;"><a href="" style="padding:5px">Log in</a>
+            <i class='fa fa-facebook-official' style='color: blue;padding:5px'></i><a href="">Log in</a>
+            <a href="" style="padding:5px">Sign up</a>
+        </span>
+    </div>
+        <div class="header" style="text-align:center;width:100%;border-bottom:3px solid orange;">
+            <span class="header-bar">
+                <span>
+                    <span class="header-bar-items">my account</span>
+                    <span class="header-bar-items">customize</span>
+                    <span class="header-bar-items">games</span>
+                    <span class="header-bar-items">explore</span>
+                    <span class="header-bar-items">news</span>
+                    <span class="header-bar-items">community</span>
+                    <span class="header-bar-items">shops</span>
+                    <span class="header-bar-items">nc mall</span>
+                    <span class="header-bar-items">premium</span>
+                    <span class="header-bar-items">explore</span>
+                </span>
+                <span class="date-time">
+                    <script type="text/javascript">
+                        const currentTime = new Date()
+                        const hours = currentTime.getHours()
+                        const minutes = currentTime.getMinutes() < 10 ? "0" + currentTime.getMinutes(): currentTime.getMinutes()
+                        const seconds = currentTime.getSeconds() < 10 ? "0" + currentTime.getSeconds(): currentTime.getSeconds()
+                        const meridiem = hours > 12 ? "pm": "am"
+                        document.write(hours + ":" + minutes + ":" + seconds + " " + meridiem + " NST")
+                    </script>
+                </span>
+            </span>
+        </div>
+    <div style="background-image: url('./images/header.PNG')">
+        <div class="neopets-map">
+            <h1>Map of Neopia</h1>
+            <p style="width:30%;margin:auto;">
+                These are the lands that have been discovered so far. Why not take your Neopets traveling? 
+                Click where you wish to go on the map to explore a whole new part of Neopia. For a little more information
+                about each land, you can also refer to the About the Lands section below.
+            </p>
+            <p>
+                Weather | Neopedia | Pronunciation
+            </p>
+            <img src="./images/world.PNG" alt="neopets-map">
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+.header {
+    background-image: url("./images/header.PNG");
+    float: left;
+    text-align: left;
+    width:100%;
+}   
+
+.header-bar {
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", "Comic Sans";
+    background-color: rgb(255, 193, 86);
+    padding: 15px 0px 0px 15px;
+    border-style: solid;
+    border-color: orange;
+    display: inline-block;
+    width: 74%;
+    margin:auto
+}
+
+.header-bar-items {
+    padding-left: 10px;
+}
+
+.date-time {
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", "Comic Sans";
+    background-color: rgb(255, 240, 215);
+    padding: 20px 16px 0px 15px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.header-text {
+    text-align: right;
+    font-size: 14px;
+    float: right;
+    padding-right: 3px;
+}
+
+.neopets-map {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", "Comic Sans";
+    background-color: white;
+    text-align: center;
+    width: 75%;
+    margin:auto;
+}
